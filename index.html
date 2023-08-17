@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Weather App</title>
+</head>
+<body>
+    <section class="weather">
+        <div class="weather__searcher searcher">
+        <input type="text" class="searcher__input" placeholder="Podaj miasto">
+        <div class="searcher__icon" >
+            <img src="assets/search.png" alt="">
+        </div>
+        </div>
+        <img class="weather__icon" src="assets/clear.png">
+        <p class="weather__temperature"><span class="temperature__value">10</span> °C</p>
+        <p class="weather__city"> Poznań</p>
+        <div class="weather__conditions">
+            <div class="humidity">
+                <img src="assets/humidity.png" class="humidity__icon">
+                <div>
+                    <p class="humidity__value"><span class="humidity__var">48</span> %</p>
+                    <p class="humidity__text">Wilgotność</p>
+                </div>
+                                
+            </div>
+            <div class="wind">
+                <img src="assets/wind.png" class="wind__icon">
+                <div>
+                    <p class="wind__value"><span class="wind__var">48</span> km/h</p>
+                    <p class="wind__text">Wiatr</p>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <script src="app.js"></script>
+</body>
+</html>
